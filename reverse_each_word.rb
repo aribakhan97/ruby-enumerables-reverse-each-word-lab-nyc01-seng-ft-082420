@@ -3,6 +3,7 @@ def reverse_each_word(sentence)
   reverse_sentence = ""
   sentence_array.each{|c|
     c_array = c.split('')
+    reverse_word = ""
     c_array.each{|d| + }
     reverse_sentence = c + reverse_sentence
   }
