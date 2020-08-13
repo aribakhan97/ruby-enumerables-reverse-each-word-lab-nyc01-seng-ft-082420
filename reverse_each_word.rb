@@ -16,7 +16,7 @@ def reverse_each_word(sentence)
   sentence_array.collect{|c|
     c_array = c.split('')
     reverse_word = ""
-    c_array.collect{|d| reverse_word = d + reverse_word}
+    c_array.each{|d| reverse_word = d + reverse_word}
     reverse_sentence = reverse_sentence  + reverse_word + " "
   }
   reverse_sentence.delete_suffix(" ")
