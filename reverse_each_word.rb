@@ -5,7 +5,7 @@ def reverse_each_word(sentence)
     c_array = c.split('')
     reverse_word = ""
     c_array.each{|d| reverse_word = d + reverse_word}
-    reverse_sentence = reverse_sentence  + reverse_word
+    reverse_sentence = reverse_sentence  + reverse_word + " "
   }
   reverse_sentence
 end
