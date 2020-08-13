@@ -7,5 +7,5 @@ def reverse_each_word(sentence)
     c_array.each{|d| reverse_word = d + reverse_word}
     reverse_sentence = reverse_sentence  + reverse_word + " "
   }
-  reverse_sentence.slice(1..-1)
+  reverse_sentence.slice(0..-1)
 end
